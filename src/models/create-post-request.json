@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema",
-    "title": "create-post",
+    "title": "create-post-request",
     "type": "object",
     "properties": {
         "name": {
