@@ -6,15 +6,15 @@
 	},
 	"item": [
 		{
-			"name": "https://062wehc9pg.execute-api.us-east-2.amazonaws.com/dev/group/0/posts",
+			"name": "get posts",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://062wehc9pg.execute-api.us-east-2.amazonaws.com/dev/group/0/posts",
+					"raw": "https://j4k722bzj6.execute-api.us-east-2.amazonaws.com/dev/group/0/posts",
 					"protocol": "https",
 					"host": [
-						"062wehc9pg",
+						"j4k722bzj6",
 						"execute-api",
 						"us-east-2",
 						"amazonaws",
@@ -31,19 +31,24 @@
 			"response": []
 		},
 		{
-			"name": "https://062wehc9pg.execute-api.us-east-2.amazonaws.com/dev/group/0/posts",
+			"name": "create post",
 			"request": {
 				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Hello AWS\"\r\n}"
+					"raw": "{\r\n    \"name\": \"sd\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
 				},
 				"url": {
-					"raw": "https://062wehc9pg.execute-api.us-east-2.amazonaws.com/dev/group/0/posts",
+					"raw": "https://j4k722bzj6.execute-api.us-east-2.amazonaws.com/dev/group/0/posts",
 					"protocol": "https",
 					"host": [
-						"062wehc9pg",
+						"j4k722bzj6",
 						"execute-api",
 						"us-east-2",
 						"amazonaws",
@@ -60,19 +65,24 @@
 			"response": []
 		},
 		{
-			"name": "https://062wehc9pg.execute-api.us-east-2.amazonaws.com/dev/group/0/posts/b26b7ad5-e380-4a13-a793-f25b7edb0d5a",
+			"name": "update post",
 			"request": {
 				"method": "PATCH",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Hello AWS Patched\"\r\n}"
+					"raw": "{\r\n    \"name\": \"hmm\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
 				},
 				"url": {
-					"raw": "https://062wehc9pg.execute-api.us-east-2.amazonaws.com/dev/group/0/posts/b26b7ad5-e380-4a13-a793-f25b7edb0d5a",
+					"raw": "https://j4k722bzj6.execute-api.us-east-2.amazonaws.com/dev/group/0/posts/01ce4528-f206-42dc-a2e8-e92fabaff24c",
 					"protocol": "https",
 					"host": [
-						"062wehc9pg",
+						"j4k722bzj6",
 						"execute-api",
 						"us-east-2",
 						"amazonaws",
@@ -83,22 +93,22 @@
 						"group",
 						"0",
 						"posts",
-						"b26b7ad5-e380-4a13-a793-f25b7edb0d5a"
+						"01ce4528-f206-42dc-a2e8-e92fabaff24c"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "https://062wehc9pg.execute-api.us-east-2.amazonaws.com/dev/group/0/posts/b26b7ad5-e380-4a13-a793-f25b7edb0d5a/attachment",
+			"name": "get signed url",
 			"request": {
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://062wehc9pg.execute-api.us-east-2.amazonaws.com/dev/group/0/posts/b26b7ad5-e380-4a13-a793-f25b7edb0d5a/attachment",
+					"raw": "https://j4k722bzj6.execute-api.us-east-2.amazonaws.com/dev/group/0/posts/b26b7ad5-e380-4a13-a793-f25b7edb0d5a/attachment",
 					"protocol": "https",
 					"host": [
-						"062wehc9pg",
+						"j4k722bzj6",
 						"execute-api",
 						"us-east-2",
 						"amazonaws",
@@ -117,15 +127,15 @@
 			"response": []
 		},
 		{
-			"name": "https://062wehc9pg.execute-api.us-east-2.amazonaws.com/dev/group/0/posts/b26b7ad5-e380-4a13-a793-f25b7edb0d5a",
+			"name": "delete post",
 			"request": {
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://062wehc9pg.execute-api.us-east-2.amazonaws.com/dev/group/0/posts/b26b7ad5-e380-4a13-a793-f25b7edb0d5a",
+					"raw": "https://j4k722bzj6.execute-api.us-east-2.amazonaws.com/dev/group/0/posts/a4e63a24-48d7-45ab-9ab8-cffa6aee11c0",
 					"protocol": "https",
 					"host": [
-						"062wehc9pg",
+						"j4k722bzj6",
 						"execute-api",
 						"us-east-2",
 						"amazonaws",
@@ -136,7 +146,7 @@
 						"group",
 						"0",
 						"posts",
-						"b26b7ad5-e380-4a13-a793-f25b7edb0d5a"
+						"a4e63a24-48d7-45ab-9ab8-cffa6aee11c0"
 					]
 				}
 			},
