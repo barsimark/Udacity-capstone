@@ -1,7 +1,7 @@
-app: serverless-udacity-board-app
+app: udacity-board-app-2
 console: true
 org: markdevvv
-service: serverless-udacity-board-app
+service: udacity-board-app-2
 
 plugins:
   - serverless-webpack
@@ -47,7 +47,7 @@ functions:
           path: group/{groupId}/posts
           request:
             schemas:
-              application/json: ${file(src/models/create-post-request.json)}
+              application/json: ${file(src/models/createpostrequest.json)}
           cors: true
     iamRoleStatements:
       - Effect: "Allow"
@@ -64,7 +64,7 @@ functions:
           cors: true
           request:
             schemas:
-              application/json: ${file(src/models/update-post-request.json)}
+              application/json: ${file(src/models/updatepostrequest.json)}
     iamRoleStatements:
       - Effect: "Allow"
         Action:
